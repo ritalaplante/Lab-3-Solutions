@@ -20,8 +20,11 @@ def calculate(a, b):
 #main function: here is where I make my function calls and print statements
 #Here I define a variable called myPerimeter and I assign its value to the value
 #returned by calculate with arguments 1 for a and 2 for b
-myPerimeter = calculate(1, 2)
-print(myPerimeter)
+def main():
+    myPerimeter = calculate(1, 2)
+    print(myPerimeter)
+
+main()
 
 #Part 3 if statements
 #write a program between 1 and 10, report back

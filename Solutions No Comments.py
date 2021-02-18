@@ -3,8 +3,11 @@ def calculate(a, b):
     perimeter = a + a + b + b
     return perimeter;
 
-myPerimeter = calculate(1, 2)
-print(myPerimeter)
+def main():
+    myPerimeter = calculate(1, 2)
+    print(myPerimeter)
+
+main()
 
 #Part 3
 myNum = int(input("Enter a number between 1 and 10: "))
